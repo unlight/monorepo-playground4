@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-playground4",
+  "private": true,
+  "packageManager": "yarn@3.8.0",
+  "workspaces": [
+    "api",
+    "app",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  }
+}

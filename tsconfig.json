@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo-playground4/components/*": ["packages/components/src/*"],
+      "@monorepo-playground4/*": ["libs/*/src"]
+    },
+    "noEmit": true
+  }
+}

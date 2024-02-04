@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo-playground4/bar",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@monorepo-playground4/foo": "~1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
