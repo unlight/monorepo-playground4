@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es2020",
     "sourceMap": true,
     "declaration": true,
@@ -8,9 +8,10 @@
     "noEmitOnError": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "types": [],
     "jsx": "react",
-    "noEmit": false
+    "moduleResolution": "node",
+    "noEmit": false,
+    "types": []
   },
   "exclude": ["node_modules", "dist"]
 }

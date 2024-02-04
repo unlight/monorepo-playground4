@@ -14,6 +14,8 @@ Monorepo playground 4
 - `yarn workspaces foreach run clean`
 - `yarn build`
 - `yarn up-all`
+- `yarn workspace api run dev`
+- `yarn workspace api run build`
 
 ## Todo
 
