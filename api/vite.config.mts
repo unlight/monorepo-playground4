@@ -18,7 +18,7 @@ export default function ({}: ConfigEnv): UserConfigExport {
 
         // Optional, default: 'viteNodeApp'
         // the name of named export of you app from the appPath file
-        exportName: 'viteNodeApp',
+        exportName: 'app',
 
         // Optional, default: false
         // if you want to init your app on boot, set this to true
