@@ -35,3 +35,4 @@ Monorepo playground 4
 - https://github.com/saseungmin/yarn-berry-example
 - https://github.com/kwakhyun/yarn-berry-monorepo
 - https://github.com/oliversalzburg/yarn3-typescript-web-vite
+- https://github.com/0no-co/gql.tada
